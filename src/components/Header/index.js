@@ -1,3 +1,4 @@
+
 import {Link, withRouter} from 'react-router-dom'
 import Cookies from 'js-cookie'
 
@@ -45,7 +46,7 @@ const Header = props => {
             type="button"
             className="nav-mobile-btn"
             onClick={onClickLogout}
-          >   
+          >
             <img
               src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
               alt="nav logout"
