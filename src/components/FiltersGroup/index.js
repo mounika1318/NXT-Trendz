@@ -1,3 +1,4 @@
+
 import {BsSearch} from 'react-icons/bs'
 
 import './index.css'
@@ -8,9 +9,8 @@ const FiltersGroup = props => {
 
     return ratingsList.map(rating => {
       const {changeRating, activeRatingId} = props
-      const ratingClassName = 
+      const ratingClassName =
         activeRatingId === rating.ratingId ? `and-up active-rating` : `and-up`
-      
       const onClickRatingItem = () => changeRating(rating.ratingId)
 
       return (
